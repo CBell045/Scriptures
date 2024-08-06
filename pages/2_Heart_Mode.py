@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.markdown("""
-# Heart Mode
+# Heart Mode ❤️
 This page is dedicated to scriptures and talks about the heart.
             
 ## Heart Talks

@@ -44,7 +44,7 @@ st.title("Random Scripture Generator")
 st.subheader("Click the button below to generate a random scripture")
 
 
-heart_mode = st.toggle("Heart Mode", True)
+heart_mode = st.toggle("Heart Mode ❤️", True)
 
 if st.button("Generate", on_click=show_scripture): 
     scripture = generate_scripture(volume, heart_mode)
