@@ -26,6 +26,8 @@ def show_reference():
 def generate_scripture(_volume, _heart_mode):
     if _heart_mode:
         _scriptures = scriptures[heart_scriptures]
+    else:
+        _scriptures = scriptures
     if volume is None or volume == "Any":
         return _scriptures.sample()
     else:
